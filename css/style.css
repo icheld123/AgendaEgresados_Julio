@@ -620,18 +620,15 @@ button:hover::after,
 #datos-contacto p.fecha{
   color: #000000!important;
   margin-top: 0;
-  font-size: 0.8rem;
   margin-left: 1em;
 }
 .nombre{
-	font-size: 1rem!important;
 	font-weight: 800;
 	color: #005883;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 .zona{
-	font-size: 1rem!important;
 	font-weight: 800;
 	color: #F8712E;
 	margin-top: 0;
@@ -652,7 +649,7 @@ button:hover::after,
     flex-wrap: wrap;
   }
   #post-contacto, .contenido-anuncio{
-    width: 35%;
+    width: 44%;
     height: 50%;
     border: 1px solid #B3B6B7;
     border-radius: 1rem;
@@ -664,10 +661,10 @@ button:hover::after,
     height: 50%;
   }
   #post-contacto p{
-    margin-left: 0.5rem;
-    font-size: 70%;
+    font-size: 55%!important
   }
   div #datos-contacto{
+    margin-left: -0.5rem;
     display: block;
   }
   #datos-contacto p.fecha{
