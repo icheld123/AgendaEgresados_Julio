@@ -344,6 +344,7 @@ button:hover::after,
   }
   nav .navbar .links li .sub-menu li a{
     color: #005883;
+    font-size: 0.8em;
     font-weight: 700;
     margin-left: -1em;
   }
