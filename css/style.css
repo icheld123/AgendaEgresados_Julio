@@ -595,6 +595,9 @@ button:hover::after,
   }
 }
 @media (max-width: 63.9374em){
+  #texto-lider{
+    font-size: 70%;
+  }
   #contacto{
     display: flex;
     justify-content: space-between;
