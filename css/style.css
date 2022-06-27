@@ -47,7 +47,7 @@ h2 {
   padding-left: 1.5rem;
 }
 #main{
-  margin-top: 10em;
+  margin-top: 7.5em;
 }
 @media (min-width: 64em) {
   .container {
@@ -342,7 +342,7 @@ button:hover::after,
     border-bottom: none;
   }
   nav .navbar .links li .sub-menu li a::before{
-    content: "→";
+    /*content: "→";*/
   }
   nav .navbar .links li .sub-menu li a{
     color: #005883;
@@ -536,7 +536,11 @@ button:hover::after,
   padding: 2rem;
   text-align: center;
 }
-
+@media (max-width: 63.9375em) {
+  .footer {
+    font-size: 60%;
+  }
+}
 @media (min-width: 64em) {
   .footer {
     padding: 1.125rem;
