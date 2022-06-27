@@ -283,7 +283,7 @@ button:hover::after,
   }
   nav .navbar .logo img{
     margin-left: 0.5em;
-    width: 100%;
+    width: 100%!important;
   }
   .hide-for-mobile{
     display: none;
